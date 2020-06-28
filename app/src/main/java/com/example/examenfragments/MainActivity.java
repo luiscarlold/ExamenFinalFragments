@@ -27,6 +27,9 @@ public class MainActivity extends AppCompatActivity {
                     case 0:
                         FragmentoSeleccionado = new ListaFragmento();
                         break;
+                    case 1:
+                        FragmentoSeleccionado = new GridFragmento();
+                        break;
                 }
                 FragmentManager fragmentManager = getSupportFragmentManager();
                 FragmentTransaction transaction = fragmentManager.beginTransaction();
